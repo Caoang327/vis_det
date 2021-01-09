@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/ancao/anaconda3/envs/d2/bin/python3",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true
+}

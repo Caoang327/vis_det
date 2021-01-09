@@ -1,0 +1,33 @@
+arch: "fasterrcnn"
+backbone: "fpn"
+
+optimization: "SGD"
+alter: False
+momentum: 0.9
+lr: 2.0
+lr_decay: 0.6
+lr_decay_time: 300
+niter: 1000
+
+alpha: 6
+lamb_norm: 1.0e-7
+tv_alpha: 2
+lamb_tv: 1.0e-7
+
+blur_every: 5
+blur_start: 5.0
+blur_decay: 0.985
+blur_end: 0.5
+ 
+if_jitter: False
+jitter_every: 30
+jitter_x: 4
+jitter_y: 4
+
+scale_weight: [0.125, 0.5, 1.0, 2.0, 8.0]
+
+rpn_cls_wei: 10.0
+rpn_reg_wei: 30.0
+roi_cls_wei: 10.0
+roi_reg_wei: 30.0
+roi_pos_wei: 1.0
