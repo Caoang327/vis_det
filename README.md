@@ -1,5 +1,5 @@
 # vis_det
-Code of "Visualizing and Understanding Object Detecor".
+Code of "Inverting and Understanding Object Detecor".
 
 ## Requirements
 * Detectron2
